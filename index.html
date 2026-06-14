@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Pichón ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Librerías -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- Música -->
+    <audio id="musica" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Corazones -->
+    <div id="hearts-container"></div>
+
+    <!-- Portada -->
+    <section class="hero">
+        <h1>🎂 Feliz Cumpleaños Pichón ❤️</h1>
+
+        <p>
+            Para la persona más hermosa ❤️
+        </p>
+
+        <button id="playMusic">
+            🎵 Reproducir Música
+        </button>
+    </section>
+
+    <!-- Sobre -->
+    <section class="envelope-section">
+
+        <h2>💌 Tengo una carta para vos</h2>
+
+        <div class="envelope" id="envelope">
+            <div class="front"></div>
+
+            <div class="letter">
+                <h2>Para mi Pichón ❤️</h2>
+
+                <p>
+                    Feliz cumpleaños mi vida
+                </p>
+
+                <p>
+                    Te amo y adoro muchisimo mi amor , sos la mejor
+                </p>
+
+                <p>
+                    Gracias por existir y ser como sos , sos unica y perfecta amor mioo
+                </p>
+
+                <p>
+                    Deseo y espero que en este dia tan especial lo pases muy lindo, asi como es tu hermosura inmensa amor 
+                </p>
+                <P>
+                    Amor , no hay nadie como vos, sos una persona increible, y me llenas de orgullo. Cada paso que 
+                    das es inmenso ,sos genial amor, segui siendo esa persona de luz, que ilumina a todos los que te rodean
+                    derramas ternura, amor, y muchas cosas buenas. Mis ojos cuando te ven , ven perfeccion , te adoro y amo pichon
+                </P>
+
+                <p>
+                    Te amo muchísimo.
+                    Te amo demasiado.
+                    Te amo montones.
+                    Te amo millones.
+                    ❤️❤️❤️
+                </p>
+
+                <p>
+                    — Tomi (pichon)
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Carrusel -->
+    <section>
+
+        <h2>📸 Nuestros Momentos</h2>
+
+        <div class="carousel">
+
+            <img id="carouselImage" src="foto1.jpeg">
+
+            <div class="controls">
+                <button onclick="prevPhoto()">⬅</button>
+                <button onclick="nextPhoto()">➡</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Botón de amor -->
+    <section class="love-section">
+
+        <h2>❤️ ¿Cuánto te amo?</h2>
+
+        <button id="loveButton">
+            Descubrir ❤️
+        </button>
+
+        <p id="loveMessage"></p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
